@@ -2462,7 +2462,7 @@ checksum = "b15813163c1d831bf4a13c3610c05c0d03b39feb07f7e09fa234dac9b15aaf39"
 
 [[package]]
 name = "oxide"
-version = "0.12.0+20250604.0.0"
+version = "0.99.0+20250616.0.1"
 dependencies = [
  "base64 0.22.1",
  "chrono",
@@ -2489,7 +2489,7 @@ dependencies = [
 
 [[package]]
 name = "oxide-cli"
-version = "0.12.0+20250604.0.0"
+version = "0.99.0+20250616.0.1"
 dependencies = [
  "anyhow",
  "assert_cmd",
@@ -2546,7 +2546,7 @@ dependencies = [
 
 [[package]]
 name = "oxide-httpmock"
-version = "0.12.0+20250604.0.0"
+version = "0.99.0+20250616.0.1"
 dependencies = [
  "chrono",
  "httpmock",
