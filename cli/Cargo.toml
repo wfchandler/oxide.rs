@@ -1,10 +1,10 @@
 [package]
 name = "oxide-cli"
 description = "CLI for the Oxide rack"
-version = "0.99.0+20250704.0.0"
+version = "0.99.0+20250704.0.1"
 edition = "2021"
 license = "MPL-2.0"
-repository = "https://github.com/oxidecomputer/oxide.rs"
+repository = "https://github.com/wfchandler/oxide.rs"
 readme = "README.md"
 publish = false
 
