@@ -15,10 +15,6 @@ targets = ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-
 pr-run-mode = "plan"
 # Install `perl-IPC-Cmd` on manylinux as required to build OpenSSL
 github-build-setup = "../manylinux.yml"
-# Whether to sign macOS executables
-macos-sign = true
-# Whether to sign Windows executables
-ssldotcom-windows-sign = "prod"
 # A GitHub repo to push Homebrew formulas to
 tap = "wfchandler/homebrew-tap"
 # Create versioned Homebrew forumlas
