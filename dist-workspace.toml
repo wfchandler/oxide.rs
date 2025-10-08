@@ -8,7 +8,7 @@ cargo-dist-version = "1.0.14"
 # CI backends to support
 ci = "github"
 # The installers to generate for each app
-installers = []
+installers = ["homebrew"]
 # Target platforms to build apps for (Rust target-triple syntax)
 targets = ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "x86_64-unknown-linux-musl", "x86_64-pc-windows-msvc"]
 # Which actions to run on pull requests
@@ -20,11 +20,13 @@ macos-sign = true
 # Whether to sign Windows executables
 ssldotcom-windows-sign = "prod"
 # A GitHub repo to push Homebrew formulas to
-tap = "oxidecomputer/homebrew-tap"
+tap = "wfchandler/homebrew-tap"
 # Create versioned Homebrew forumlas
 version-formulas = true
 # Publish jobs to run in CI
 publish-jobs = ["homebrew"]
+# Create version-specific Homebrew formulas
+version_formulas = true
 
 [dist.completion-cmds.oxide]
 trigger.subcommand = { name = "completion", format = "arg" }
